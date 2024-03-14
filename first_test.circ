@@ -56,19 +56,25 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(220,210)" name="Power"/>
-    <comp lib="0" loc="(220,90)" name="Power"/>
-    <comp lib="1" loc="(340,90)" name="NOT Gate"/>
+    <comp lib="0" loc="(210,210)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(210,60)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
     <comp lib="1" loc="(360,190)" name="AND Gate"/>
+    <comp lib="1" loc="(380,90)" name="NOT Gate"/>
     <comp lib="1" loc="(490,130)" name="OR Gate"/>
     <comp lib="5" loc="(520,130)" name="LED"/>
-    <wire from="(220,210)" to="(310,210)"/>
-    <wire from="(220,90)" to="(270,90)"/>
+    <wire from="(210,210)" to="(310,210)"/>
+    <wire from="(210,60)" to="(250,60)"/>
+    <wire from="(250,60)" to="(250,90)"/>
+    <wire from="(250,90)" to="(270,90)"/>
     <wire from="(270,170)" to="(310,170)"/>
     <wire from="(270,90)" to="(270,170)"/>
-    <wire from="(270,90)" to="(310,90)"/>
-    <wire from="(340,90)" to="(440,90)"/>
+    <wire from="(270,90)" to="(350,90)"/>
     <wire from="(360,190)" to="(410,190)"/>
+    <wire from="(380,90)" to="(440,90)"/>
     <wire from="(410,150)" to="(410,190)"/>
     <wire from="(410,150)" to="(440,150)"/>
     <wire from="(440,90)" to="(440,110)"/>
