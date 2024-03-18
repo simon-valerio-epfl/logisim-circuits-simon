@@ -104,6 +104,7 @@
       <a name="incoming" val="4"/>
     </comp>
     <comp lib="5" loc="(670,210)" name="Hex Digit Display"/>
+    <comp loc="(240,50)" name="encoder"/>
     <comp loc="(430,210)" name="encoder"/>
     <wire from="(150,210)" to="(210,210)"/>
     <wire from="(150,230)" to="(210,230)"/>
